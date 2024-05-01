@@ -10,5 +10,9 @@ body {
 }
 
 .home-header {
-  background: black;
+  background: linear-gradient(#e66465, #9198e5);
+  padding: 100px 25px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
