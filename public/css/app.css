@@ -30,6 +30,12 @@ ul {
   gap: 30px;
 }
 
+nav.menu ul li a {
+  height: 46px;
+  width: 46px;
+  line-height: 56px;
+  font-size: 22px;
+}
 nav.menu li a {
   color: white !important;
 }
