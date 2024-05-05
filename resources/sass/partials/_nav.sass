@@ -20,8 +20,37 @@ nav.menu
     ul
         li
             a
-                color:white
-                height:46px
+                color: white
+                height: 46px
                 width: 46px
-                line-height: 56px
                 font-size: 22px
+                background: #570bd7
+                border-radius: 50%
+                display: flex
+                justify-content: center
+                align-items: center
+                text-decoration: none
+                transition: all 0.4s ease
+                position: relative
+
+                .info-count
+                    width: 20px
+                    height: 20px
+                    border-radius: 50%
+                    background: #ff36f7
+                    font-size: 12px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    position: absolute
+                    top: 0
+                    right: 0
+                    transform: translate(20%, -20%)
+                    color: #fff
+
+                &:hover
+                    background: #fff
+                    color: #6100ff
+
+
+
