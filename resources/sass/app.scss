@@ -7,7 +7,9 @@
 @import 'partials/_nav.sass';
 
 // Pages
-// @import './pages/home.sass'
+@import './pages/home.sass';
+@import './pages/auth.sass';
+
 
 nav.menu li a{
     color:white
